@@ -1,0 +1,102 @@
+html, body {
+	margin: 0;
+}
+header {
+	background: url("../Images/space-signal.jpg") center center fixed;
+	background-size: cover;
+}
+header h1 {
+	color: white;
+}
+p, h2, h3, h4, h5, h6, body h3, ul, li, body h4, div, span, footer {
+	color: #555; /* Grey */
+}
+body h2 {
+	color: #0673CB; /* Blue */
+	font-weight: bold;
+	text-align: center;
+}
+body h2, body h3, header, footer {
+	text-align: center;
+}
+#evidence {
+	color: #0673CB;
+	font-style: italic;
+}
+nav ul {
+	display: inline;
+	padding: 0 0;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+nav ul li a span {
+	color: white;
+	font-weight: bold; /* 700 */
+}
+nav ul li a span:hover {
+	color: #0673CB;
+	text-decoration: underline;
+}
+ul.articles {
+	list-style-type: none;
+}
+ul.articles li a {
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+}
+ul.articles .primaryli a {
+	list-style-type: none;
+}
+ul.articles li a span:hover {
+	color: #0673CB;
+	text-decoration: underline;
+}
+a {
+	color: #0673CB;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: indigo;
+	text-decoration: none; 
+}
+a:visited:hover {
+	color: indigo;
+	text-decoration: underline;
+}
+.aboutPanel {
+	margin: 3%;
+}
+.aboutPanel .header {
+	background-color: #0673CB;
+	border: 1px solid darkblue;
+	padding: 15px 10px 5px 0px;;
+	text-align: center;
+}
+.aboutPanel .header h3 {
+	color: white;
+}
+.aboutPanel .body {
+	background-color: beige;;
+	border: 1px solid #555;
+	padding: 10px 15px;
+}
+.aboutPanel .body section h4 {
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+}
+.aboutPanel .body section h6 {
+	color: #0673CB;
+	font-weight: bold;
+}
+body h2, body h3, body h4, body h5, body h6, * {
+	font-family: Arial, Helvetica, sans-serif;
+}
